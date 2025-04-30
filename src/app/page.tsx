@@ -40,7 +40,7 @@ export default function Home() {
       </div>
       <div className="w-full max-w-sm flex flex-col gap-4">
         <button
-          onClick={() => router.push("/velocimetro")}
+          onClick={() => router.push("/speedometer")}
           className="relative flex justify-center gap-3 items-center bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-2xl text-lg transition"
         >
           Iniciar Passeio
@@ -48,7 +48,7 @@ export default function Home() {
         </button>
 
         <button
-          onClick={() => router.push("/passeios")}
+          onClick={() => router.push("/history")}
           className="relative flex justify-center gap-3 items-center border border-gray-400 hover:border-white text-gray-300 hover:text-white font-semibold py-3 rounded-2xl text-lg transition"
         >
           Ver Histórico
